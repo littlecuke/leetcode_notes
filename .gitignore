@@ -1,8 +1,17 @@
 # Compiled class file
 *.class
+# mac
+.DS_Store
+
+# idea
+.idea
+*.iml
 
 # Log file
 *.log
+
+# java output
+/java/out
 
 # BlueJ files
 *.ctxt
