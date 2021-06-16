@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class TwoSum {
+public class TwoSum01 {
 
     //通过map存储，使用hash寻址对比,内存使用多
     public int[] twoSum(int[] nums, int target) {
@@ -31,8 +31,8 @@ public class TwoSum {
 
     public static void main(String[] args) {
         int[] ints = {2, 7, 11, 15};
-        TwoSum twoSum = new TwoSum();
-        int[] ints1 = twoSum.twoSum(ints, 9);
+        TwoSum01 twoSum01 = new TwoSum01();
+        int[] ints1 = twoSum01.twoSum(ints, 9);
         System.out.println(ints1);
     }
 }

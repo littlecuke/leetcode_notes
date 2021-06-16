@@ -1,6 +1,6 @@
 import com.oracle.javafx.jmx.json.JSONWriter;
 
-public class AddTwoNum {
+public class AddTwoNum02 {
 
     public static void main(String[] args) {
         ListNode a= new ListNode(2);
@@ -16,7 +16,7 @@ public class AddTwoNum {
         b.next = b1;
         System.out.println("b:"+b.toString());
 
-        AddTwoNum addTwoNum = new AddTwoNum();
+        AddTwoNum02 addTwoNum = new AddTwoNum02();
         ListNode listNode = addTwoNum.addTwoNumbers2(a, b);
         System.out.println(listNode.toString());
     }
